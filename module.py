@@ -1,16 +1,16 @@
 
 name = input("enter your name: ")
-age = int(input("enter your age: "))
+level = int(input("enter your level: "))
 course = input("enter your course: ")
 
 print("\nSTUDENT INFORMATION")
 print("name: ", name)
-print("age: ", age)
+print("level: ", level)
 print('course:', course)
 
 
 
-score = float(input("enter your score: "))
+score = float(input("\nenter your score: "))
 if score >= 70:
     grade = "A"
 elif score >= 60:
