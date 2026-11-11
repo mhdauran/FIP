@@ -1,5 +1,3 @@
-from functions import add_task, view_tasks, mark_task_done, delete_task
-
 
 def main():
     while True:
